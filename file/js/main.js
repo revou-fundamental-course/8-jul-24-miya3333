@@ -46,7 +46,7 @@ function getBMICategory(bmi) {
   } else if (bmi < 30) {
     return "Overweight";
   } else {
-    return "Obese";
+    return "Obesitas";
   }
 }
 
