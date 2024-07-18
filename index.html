@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="icon" href="file/img/spongebob.jpg">
+    <link rel="stylesheet" href="file/css/style.css">
+    <!-- Aldi Hermansyah -->
+</head>
+<body>
+    <header class="web-title">
+        <h1>Kalkulator BMI</h1>
+    </header>
+
+    <main>
+        <!-- banyak class digunakan untuk memudahkan dalam pengeditan css -->
+        <article id="about" class="key-1 key-2">
+            <h3>Apa itu Kalkulator BMI Online?</h3>
+            <p>
+                Kalkulator BMI online adalah alat bantu yang memungkinkan kamu untuk menghitung Body Mass Index (BMI) dengan mudah dan cepat. BMI merupakan indikator untuk mengukur berat badan ideal berdasarkan tinggi dan berat badan. Kalkulator ini biasanya tersedia di berbagai situs web kesehatan, seperti Halodoc, KlikDokter, dan Hello Sehat.
+            </p>
+        </article>
+        <article id="use" class="key-1 key-2">
+            <h3>Cara menggunakan Kalkulator BMI Online</h3>
+            <p>
+                1. Masukkan data dirimu <br>
+                2. Klik tombol "Hitung" <br>
+                3. Kalkulator akan menampilkan nilai BMI dan kategori berat badanmu
+            </p>
+        </article>
+
+        <!-- penginputan nilai -->
+        <article id="form" class="key-1">
+            <form action="" class="form">
+                <div class="gender key-3">
+                    <div class="gender-title">Jenis Kelamin</div>
+                    <div class="gender-btn key-3">
+                        <div class="male key-3 key-6">
+                          <input type="radio" id="selection-male" name="option" value="Pria"/>
+                          <label for="selection-male">Laki-laki &#9794;</label> 
+                        </div>
+                        <div class="female key-3 key-6">
+                          <input type="radio" id="selection-female" name="option" value="Wanita"/>
+                          <label for="selection-female">Perempuan &#9792;</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input key-3">
+                    <div class="key-3 key-4">
+                        <label for="berat">Berat Badan</label>
+                        <input type="number" id="berat" class="key-5" placeholder="kg" />
+                    </div>
+                    <div class="key-3 key-4">
+                        <label for="usia">Usia</label>
+                        <input type="number" id="usia" class="key-5" placeholder="tahun" />
+                    </div>
+                    <div class="key-3 key-4">
+                        <label for="tinggi">Tinggi Badan</label>
+                        <input type="number" id="tinggi" class="key-5" placeholder="cm" />
+                    </div>
+                </div>
+                <div class="input-btn key-3 key-7">
+                  <button onclick="validateForm()" type="button" class="key-8">Hitung BMI</button>
+                  <button class="reset-btn key-8" onclick="resetButton()">Reset</button>
+                </div>
+            </form>
+        </article>
+
+        <!-- hasil dari inputan akan ditampilkan disini -->
+        <article id="result" class="key-1">
+            <h2>Hasil</h2>
+            <div class="hasil">
+                <h3 id="angka-hasil">akan di tampilkan disini</h3>
+                <p id="anda-memiliki"></p>
+                <p id="gender"></p>
+                <p id="umur"></p>         
+                <p id="article-hasil"></p>
+            </div>
+            <div class="download">
+
+            </div>
+        </article>
+    </main>
+    <footer>
+        <h5>&copy; Aldi Hermansyah | <a href="https://github.com/revou-fundamental-course/8-jul-24-miya3333">Github</a></h5>
+    </footer>
+    <script src="file/js/main.js"></script>
+</body>
+</html>

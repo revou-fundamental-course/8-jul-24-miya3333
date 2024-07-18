@@ -1,0 +1,158 @@
+/* Aldi Hermansyah */
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540;1,6..12,75..125,200..1000,440..540&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.web-title {
+    width: 100%;
+    /* padding: 5px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #f5f5f5;
+    background-color: #0090ff;
+}
+
+h3 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.key-1 {
+    width: 40%;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: #f5f5f5;
+    background-color: #0090ff;
+}
+
+.key-2 {
+    margin-top: 20px;
+}
+
+.form {
+    width: 100%;
+}
+.gender {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.key-3 {
+    display: flex;
+    gap: 5px;
+}
+.key-4 {
+    flex-direction: column;
+}
+.key-5 {
+    width: auto;
+    height: 25px;
+    text-align: center;
+    border: 1px solid #b8b8b8;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.key-6 {
+    flex-direction: row;
+}
+.key-7 {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.key-8 {
+    width: 50%;
+    height: 50px;
+    border: 1px solid #0090ff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: white;
+    background-color: #006bbd;
+}
+.key-8:hover {
+    background-color: #005494;
+}
+.hasil>h3 {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+}
+@media only screen and (max-width: 1300px) {
+    .input {
+        width: 100%;
+        flex-direction: column;
+    }
+    .key-4, .key-5 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    main {
+        flex-direction: column;
+    }
+    .key-1 {
+        width: 90%;
+        margin-top: 0;
+    }
+    .key-2 {
+        padding: 0 20px;
+    }
+    .gender-btn {
+        justify-content: center;
+        flex-direction: column;
+    }
+    #about {order: 4;}
+    #use {
+        margin-top: 20px;
+        order: 1;
+    }
+    #form {order: 2;}
+    #result {order: 3;}
+}
