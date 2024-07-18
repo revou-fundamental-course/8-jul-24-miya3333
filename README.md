@@ -3,7 +3,7 @@
 > Kalkulator BMI adalah aplikasi web yang memungkinkan pengguna untuk menghitung Indeks Massa Tubuh (BMI).
 
 > [!TIP]
-> [Preview](#Preview) & [Hasil](#Hasil)
+> [Preview](#Preview) [Hasil](#Hasil)
 
 # Author
 > [!IMPORTANT]
