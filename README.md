@@ -1,5 +1,15 @@
-# Preview
-<img src="file/img/Screenshot (396).png" img>
+# Mini Project: Kalkulator BMI
+> [!NOTE]
+> Kalkulator BMI adalah aplikasi web yang memungkinkan pengguna untuk menghitung Indeks Massa Tubuh (BMI).
 
-# Hasil
-<img src="file/img/Screenshot (397).png" img>
+# Author
+> [!IMPORTANT]
+> **Aldi Hermansyah**
+
+## Preview
+> [!CAUTION]
+> <img src="file/img/Screenshot (396).png" img>
+
+## Hasil
+> [!CAUTION]
+> <img src="file/img/Screenshot (397).png" img>
